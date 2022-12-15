@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&family=Roboto:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --primary-text-color: #183b56;
+    --secondary-text-color: #577592;
+    --accent-color: #2294ed;
+    --accent-color-dark: #1d69a3;
+    --padding-inline-section: 20px
+}
+
+body {
+    font-family: 'poppins', sans-serif;
+    color: var(--primary-text-color);
+    background: #021a2d;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+h2 {
+    font-size: 1.5rem;
+}
+
+p {
+    font-family: 'Roboto',sans-serif;
+    font-size: 1.25rem;
+    color: var(--secondary-text-color);
+    line-height: 1.8rem; 
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+}
+
+/* NAV BAR */
+ul{
+    list-style-type: none;
+    
+}
+
+li{
+    font-size: 15px;
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+}
+
+.hover-links {
+    color: aliceblue;
+    transition: 0.2s ease-out;
+    
+}
+
+.hover-links:hover { 
+    color: var(--accent-color)
+}
+
+.primary-button{
+    background-color: var(--accent-color);
+    border-radius: 6px;
+    font-weight: 500;
+    color: white !important;
+    padding: 5px 8px ;
+    box-shadow: 0 0 2px var(--secondary-text-color);
+    transition:0.2s ease-out;
+
+}
+
+.primary-button:hover {
+    background-color: var(--accent-color-dark);
+}
+
+
+.main-nav{
+    
+    padding: 20px;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+#prep {
+ color: aliceblue;
+}
+
+.nav-links{
+    
+    flex-basis: 730px;
+}
+
+.nav-links ul{
+    color: aliceblue;
+    justify-content: end;
+    gap: 40px;
+}
+
+
+/* header  */
+
+header{
+    padding: 50px var(--padding-inline-section) 0;
+}
+
+.header-section {
+    justify-content: center;
+    gap: 50px;
+}
+
+.header-right img {
+    width: 500px;
+    height: 300px;
+    flex-wrap: wrap;
+}
+
+.header-left p {
+    max-width: 40vw;
+   margin:  10px 40px;
+}
