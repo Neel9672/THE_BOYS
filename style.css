@@ -166,6 +166,21 @@ header{
 
 }
 
+#profile:hover {
+    transform: scale(1.1);
+    transition: all 1s cubic-bezier(0.175, 0.885,0.32,1.275);
+}
+
+#home:hover {
+    transform: scale(1.1);
+    transition: all 1s cubic-bezier(0.175, 0.885,0.32,1.275);
+}
+
+#login:hover {
+    transform: scale(1.1);
+    transition: all 1s cubic-bezier(0.175, 0.885,0.32,1.275);
+}
+
 #h-3{
     margin-top: 20px;
     margin-left: 270px;
@@ -177,6 +192,11 @@ header{
     margin-left: 330px;
     color:#1ea688;
     font-style: bold;
+}
+
+#sign:hover {
+    transform: scale(1.1);
+    transition: all 1s cubic-bezier(0.175, 0.885,0.32,1.275);
 }
 
 .container2 {
@@ -219,6 +239,11 @@ header{
 
 }
 
+#roadmap:hover {
+    transform: scale(1.1);
+    transition: all 1s cubic-bezier(0.175, 0.885,0.32,1.275);
+}
+
 #head3 {
     text-align: left;
     top: 2350px;
@@ -242,7 +267,7 @@ header{
 
 #internship {
     top: 2820px;
-    right: 1370px;
+    right: 1300px;
     position: absolute;
     border: #021a2d;
     padding: 10px 80px;
@@ -251,4 +276,77 @@ header{
     color: #fff;
     border-radius:30px;
 
+}
+
+#internship:hover {
+    transform: scale(1.1);
+    transition: all 1s cubic-bezier(0.175, 0.885,0.32,1.275);
+}
+
+#l1 {
+    top: 3280px;
+    position: absolute;
+    width: 360px;
+    height: 360px;
+    right: 1520px;
+}
+
+#l1:hover {
+    transform: scale(1.1);
+    transition: all 1s cubic-bezier(0.175, 0.885,0.32,1.275);
+}
+
+#l2 {
+    top: 3280px;
+    position: absolute;
+    width: 360px;
+    height: 360px;
+    right: 1150px;
+   
+}
+
+#l2:hover {
+    transform: scale(1.1);
+    transition: all 1s cubic-bezier(0.175, 0.885,0.32,1.275);
+}
+
+#l3 {
+    top: 3280px;
+    position: absolute;
+    width: 360px;
+    height: 360px;
+    right: 800px;
+    
+}
+
+#l3:hover {
+    transform: scale(1.1);
+    transition: all 1s cubic-bezier(0.175, 0.885,0.32,1.275);
+}
+
+#l4 {
+    top: 3280px;
+    position: absolute;
+    width: 360px;
+    height: 360px;
+    right: 450px;
+    
+}
+
+#l4:hover {
+    transform: scale(1.1);
+    transition: all 1s cubic-bezier(0.175, 0.885,0.32,1.275);
+}
+
+#l5 {
+    top: 3280px;
+    position: absolute;
+    width: 360px;
+    height: 360px;
+    right: 80px;
+}
+
+#l5:hover {
+    transform: scale(1.1);
+    transition: all 1s cubic-bezier(0.175, 0.885,0.32,1.275);
 }
